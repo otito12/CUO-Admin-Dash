@@ -1,16 +1,21 @@
 {
-  "name": "cuocrm",
+  "name": "cuo-admin-dash",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./backend/server.js; react-scripts ./frontend/start",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },"dependencies": {
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "*"
- },
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/otito12/CUO-Admin-Dash.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otito12/CUO-Admin-Dash/issues"
+  },
+  "homepage": "https://github.com/otito12/CUO-Admin-Dash#readme"
 }
