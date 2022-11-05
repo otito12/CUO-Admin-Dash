@@ -6,11 +6,10 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
+  },"dependencies": {
     "express":"*",
     "body-parser":"*",
-    "bcrypt": "^0.8.5"
+    "bcrypt": "*"
  },
   "author": "",
   "license": "ISC"
