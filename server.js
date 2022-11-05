@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // application port add env var later
-const PORT = 3000;
+const PORT = 3000 || process.env.PORT;
 
 // conenct router
 app.use(router);
